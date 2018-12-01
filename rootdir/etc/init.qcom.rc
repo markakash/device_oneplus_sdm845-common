@@ -8,6 +8,9 @@ on boot
     # Fingerprint
     chown system system /sys/devices/platform/soc/soc:goodix_fp/proximity_state
 
+on post-fs
+    chown system system /sys/class/leds/vibrator/vmax_mv_user
+
 on charger
     write /sys/class/backlight/panel0-backlight/brightness 150
 
