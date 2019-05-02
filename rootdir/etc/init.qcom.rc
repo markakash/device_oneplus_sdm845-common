@@ -1,4 +1,4 @@
-import /system/etc/init/init.prelude.rc
+import /system/etc/init/init.neutrino.rc
 
 on init
     mount none /system/etc/audio_policy_configuration.xml /vendor/etc/audio/audio_policy_configuration.xml bind

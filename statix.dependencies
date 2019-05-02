@@ -1,0 +1,8 @@
+[
+  {
+    "repository": "markakash/vendor_oneplus",
+    "target_path": "vendor/oneplus",
+    "branch": "pie",
+    "remote": "github"
+  }
+]
