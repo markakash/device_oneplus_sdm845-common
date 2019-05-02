@@ -4,5 +4,11 @@
     "target_path": "vendor/oneplus",
     "branch": "pie",
     "remote": "github"
+  },
+  {
+    "repository": "0ctobot/neutrino_kernel_oneplus_sdm845",
+    "target_path": "kernel/oneplus/sdm845",
+    "branch": "custom/neutrino-msm-fajita-4.9",
+    "remote": "github"
   }
 ]
